@@ -20,9 +20,7 @@ fun BookList(
     onBookClick: (Book) -> Unit,
     modifier: Modifier = Modifier,
     scrollState: LazyListState = rememberLazyListState()
-
 ) {
-
     LazyColumn(
         modifier = modifier,
         state = scrollState,
@@ -45,5 +43,4 @@ fun BookList(
             )
         }
     }
-
 }
